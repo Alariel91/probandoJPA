@@ -5,6 +5,21 @@
 	<persistence-unit name="jpa-example" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>es.opensigad.model.vo.AlumnoNota</class>
+		<class>es.opensigad.model.vo.Alumno</class>
+		<class>es.opensigad.model.vo.AlumnoContacto</class>
+		<class>es.opensigad.model.vo.AlumnoDireccion</class>
+		<class>es.opensigad.model.vo.AlumnoMatricula</class>
+		<class>es.opensigad.model.vo.AlumnoSeguimiento</class>
+		<class>es.opensigad.model.vo.AlumnoTutor</class>
+		<class>es.opensigad.model.vo.Centro</class>
+		<class>es.opensigad.model.vo.Ensenanza</class>
+		<class>es.opensigad.model.vo.EnsenanzaCiclo</class>
+		<class>es.opensigad.model.vo.EnsenanzaCurso</class>
+		<class>es.opensigad.model.vo.EnsenanzaMateria</class>
+		<class>es.opensigad.model.vo.EnsenanzaTipo</class>
+		<class>es.opensigad.model.vo.Profesor</class>
+		<class>es.opensigad.model.vo.Territorio</class>
+		<class>es.opensigad.model.vo.Tutor</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
 		<properties>
 			<property name="javax.persistence.jdbc.url"
